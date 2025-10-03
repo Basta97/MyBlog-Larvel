@@ -84,12 +84,7 @@
     @yield('content')
   </main>
 
-  <footer class="container container-narrow py-5">
-    <div class="d-flex justify-content-between align-items-center">
-      <small>© {{ date('Y') }} My Blog</small>
-      <small class="text-secondary">Built with Laravel & Bootstrap</small>
-    </div>
-  </footer>
+  
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
